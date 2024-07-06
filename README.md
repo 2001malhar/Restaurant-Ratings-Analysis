@@ -71,46 +71,6 @@ Our data set consists of the following observations which include:
 2. Click on transform data -> Duplicate the file -> Click on Binary to expand the dataset (Repeat the set for the no of datasets)
 3. Calculated Fields
 
-#### Age Group
-```
-AgeGroup = 
-SWITCH(
-    TRUE(),
-    consumers[Age] <= 18, "Children and Adolescents",
-    consumers[Age] <= 30, "Young Adults",
-    consumers[Age] <= 45, "Adults",
-    consumers[Age] <= 60, "Middle-aged Adults",
-    "Seniors"
-)
-```
-#### Service Rating Category
-```
-Service_Rating_Category = SWITCH(
-    TRUE(),
-    ratings[Service_Rating] = 0, "Unsatisfactory",
-    ratings[Service_Rating] = 1, "Satisfactory",
-    "Highly Satisfactory"
-)
-```
-#### Overall Rating Category
-```
-Overall_Rating_Category = SWITCH(
-    TRUE(),
-    ratings[Overall_Rating] = 0, "Unsatisfactory",
-    ratings[Overall_Rating] = 1, "Satisfactory",
-    "Highly Satisfactory"
-)
-```
-#### Food Rating Category
-```
-Food_Rating_Category = SWITCH(
-    TRUE(),
-    ratings[Food_Rating] = 0, "Unsatisfactory",
-    ratings[Food_Rating] = 1, "Satisfactory",
-    "Highly Satisfactory"
-)
-```
-
 ## Data Analysis
 ### Local Insights:
 - What is the distribution of consumers by city and state?
