@@ -5,12 +5,11 @@
 * [Case Study](#case-study)
 * [Dataset Description](#dataset-description)
 * [ER Diagram](#er-diagram)
-* [Data Cleaning](#data-cleaning)
 * [Data Analysis](#data-analysis)
 * [Dashboard](#dashboard)
 
 ## Case Study
-Restaurant ratings in Mexico by real consumers from 2012, including additional information about each restaurant and their cuisines, and each consumer and their preferences.
+Restaurant ratings by real consumers from 2012, including additional information about restaurants & their cuisines, & each consumer & their preferences.
 ## Dataset Description
 Our data set consists of the following observations which include:
 
